@@ -1,0 +1,32 @@
+.sidenav-container {
+    min-height: 100%;
+    height: auto !important;
+}
+
+.sidenav {
+    width: 200px;
+    position: fxied !important;
+    top: 64px !important;
+}
+
+.sidenav .mat-toolbar {
+    background: inherit;
+}
+
+.sldenav-content {
+    padding: 80px 10px;
+}
+
+.mat-toolbar.mat-primary {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+mat-toolbar {
+    position: fixed;
+    top: 0rem;
+    z-index: 2;
+    background: #c2185b;
+    color: #fff;
+}
